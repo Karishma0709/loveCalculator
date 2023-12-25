@@ -1,0 +1,79 @@
+body{
+    background-image: url(image/main1.jpg);
+   background-size: cover;
+   overflow: hidden;
+}
+
+p{ 
+    font-size: 18px;
+}
+
+.container{
+    color: white;
+    position: relative;
+    top: 130px;
+    left: 150px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.button{
+    background-color:goldenrod;
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    filter: drop-shadow(0px 0px 10px) ;
+}
+
+#yourName{
+    padding-left: 10px;
+}
+#partnerName{
+    padding-left: 10px;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    padding-left: 50px;
+}
+
+h1{
+    font-size: 32px;
+    
+}
+
+.heading{
+width: 400px;
+height: 50px;
+position: absolute;
+left:-50px;
+font-size: 32px;
+text-shadow: 0 0 25px #00fffb,0 0 40px #42bc00;
+}
+
+.heart1{
+    animation: heart 2s linear ;
+}
+@-o-keyframes heart{
+    0%{
+        opacity: 0%;
+        transform: rotate(90deg);
+        filter: blur(20px);
+      }
+      100%{
+        opacity: 1;
+        transform: rotate(0deg);
+        filter: blur(0px);
+      }
+    }
+
+    
